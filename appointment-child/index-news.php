@@ -22,7 +22,7 @@ if($news_setting['home_blog_enabled'] == 0 ) { ?>
 ?>
 		<!-- /Section Title -->
 		
-		<div class="row">
+		<div class="row esp">
 		<?php
 		
 		$cat_id = array();
