@@ -20,7 +20,8 @@
 		//****** get index News  ********
 		get_template_part('index', 'news');
 
-	
+	    //****** get index Maps  ********
+		get_template_part('index', 'mapa');
 				
 		get_footer();
 		
