@@ -11,4 +11,41 @@ Tags: full-width-template,threaded-comments,two-columns,right-sidebar,sticky-pos
 Version: 2.5.9.1487699573
 */
 .esp{padding: 25px 0;}
-
+.width300{
+    width: 300px;
+}
+#simbolo{
+    text-align: center;
+}
+#simbolo img {
+    top: 0;
+    width: 50px;
+    height: 10px;
+}
+.custom58{
+    text-align: left;
+    font-size: 10px;
+}
+.linha-acima-footer{
+    border-top: 5px solid #ee591f;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.ima{
+    margin: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    float: left;
+}
+.ima img {
+    width: 100%;
+    height: auto;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: gray;
+}

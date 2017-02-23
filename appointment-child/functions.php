@@ -2,6 +2,8 @@
 // Exit if accessed directly
 if ( !defined( 'ABSPATH' ) ) exit;
 
+require( get_stylesheet_directory() . '/functions/template-tag.php');
+
 // BEGIN ENQUEUE PARENT ACTION
 // AUTO GENERATED - Do not modify or remove comment markers above or below:
 
