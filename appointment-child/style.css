@@ -49,3 +49,5 @@ Version: 2.5.9.1487699573
     font-size: 13px;
     color: gray;
 }
+.blog-post-date-area .date{width: 70px; height: 90px}
+.blog-post-date-area .comment{width: 70px; height: 50px}
