@@ -58,3 +58,24 @@ Version: 2.5.9.1487699573
     max-width: 100% !important;
     height: auto !important;
 }
+table.tari {
+    font-family: arial, sans-serif;
+    font-style: normal;
+    border-collapse: collapse;
+    width: 100%;
+}
+.tari td, .tari th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+.tari tr:nth-child(even) {
+    background-color: #dde7fb;
+}
+.gre{
+    background-color: #99c399 !important;
+}
+.horas{
+    font-family: arial, sans-serif;
+    font-style: normal;
+}
