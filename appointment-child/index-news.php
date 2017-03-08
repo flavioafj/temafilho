@@ -70,6 +70,33 @@ if($news_setting['home_blog_enabled'] == 0 ) { ?>
 			  wp_reset_postdata();
 			endwhile;  ?>
 		</div>
+<!--contato-->
+		<div class="blog-sm-area">
+<div class="col-md-6 bloco">	
+		<h3>Fale Conosco</h3>
+			<?php wd_contact_form_maker(3);?>
+</div>
+			<div class="col-md-4 bloco width300">
+                		<h4>ou se preferir...</h4>
+<div class="cem">
+				<div class="service-icon height60">
+							<i class="fa fa-phone"></i>
+				</div>
+				<p>(31) 3-665-7777</p>
+				<p>(31) 9-8473-1607</p>
+				<p>(31) 9-8478-6316</p>
+</div>
+			<a href="mailto: sac@estacionamentopatioconfins.com.br" target="_top">			
+				<div class="service-icon height60 espaconoalto">
+							<i class="fa fa-envelope-o"></i>
+				</div>
+				<p class="ema espaconoalto">sac@estacionamentopatioconfins.com.br</p>
+			</a>	
+            		</div>
+		</div>
+		
+<!--/contato-->
+
 	</div>
 <?php } ?>
 </div>

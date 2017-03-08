@@ -21,4 +21,8 @@ if ( !function_exists( 'child_theme_configurator_css' ) ):
 endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css' );
 
-// END ENQUEUE PARENT ACTION
+function gambiarra(){
+    wp_enqueue_script('corrigeForm', trailingslashit( get_stylesheet_directory_uri() ) . '/js/corrigeForm.js');
+}
+add_action( 'wp_enqueue_scripts', 'gambiarra' );
+// END ENQUEUE PARENT ACTION http://estacionamentopatioconfins.com.br/wp/wp-content/themes/appointment-child/js/corrigeForm.js?ver=4.6.4
