@@ -10,6 +10,7 @@ require( get_stylesheet_directory() . '/functions/template-tag.php');
 if ( !function_exists( 'chld_thm_cfg_parent_css' ) ):
     function chld_thm_cfg_parent_css() {
         wp_enqueue_style( 'chld_thm_cfg_parent', trailingslashit( get_template_directory_uri() ) . 'style.css', array(  ) );
+        wp_enqueue_style( 'datetimepicker', trailingslashit( get_stylesheet_directory_uri() ) . 'datetimepicker.css', array(  ) ); 
     }
 endif;
 add_action( 'wp_enqueue_scripts', 'chld_thm_cfg_parent_css', 10 );
@@ -23,6 +24,9 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css' );
 
 function gambiarra(){
     wp_enqueue_script('corrigeForm', trailingslashit( get_stylesheet_directory_uri() ) . '/js/corrigeForm.js');
+    wp_enqueue_script( 'datetimepicker', 'http://estacionamentopatioconfins.com.br/js/jquery/jquery.datetimepicker.full.min.js');
+    wp_enqueue_script('Script_child', trailingslashit( get_stylesheet_directory_uri() ) . '/js/Script_child.js');
+    wp_enqueue_script('diff_child', trailingslashit( get_stylesheet_directory_uri() ) . '/js/diff_child.js');
 }
 add_action( 'wp_enqueue_scripts', 'gambiarra' );
-// END ENQUEUE PARENT ACTION http://estacionamentopatioconfins.com.br/wp/wp-content/themes/appointment-child/js/corrigeForm.js?ver=4.6.4
+// END ENQUEUE PARENT ACTION 

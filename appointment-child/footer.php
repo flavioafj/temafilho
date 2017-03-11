@@ -82,6 +82,7 @@ if ( is_active_sidebar( 'footer-widget-area' ) ) { ?>
 <!--Scroll To Top--> 
 <a href="#" class="hc_scrollup"><i class="fa fa-chevron-up"></i></a>
 <!--/Scroll To Top--> 
-<?php wp_footer(); ?>
+<?php wp_footer();
+ require('datetimepicker_setup.php'); ?>
 </body>
 </html>
